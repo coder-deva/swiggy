@@ -39,6 +39,15 @@ export const Header = () => {
           } lg:flex lg:flex-row flex-col gap-10 lg:mr-16 items-center`}
         >
           <ul className="flex flex-col lg:flex-row gap-10">
+
+          <li>
+            <Link to="/" className="flex gap-2 items-center text-lg hover:text-orange-600">
+              <FaCartShopping className="text-xl" />
+              Home
+            </Link>
+              </li>
+
+
             <li className="flex gap-2 items-center text-lg hover:text-orange-600">
               <MdMarkunreadMailbox /> Swiggy Corporate
             </li>
