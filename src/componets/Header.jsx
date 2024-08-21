@@ -1,12 +1,9 @@
-import { MdKeyboardArrowDown } from "react-icons/md";
-import { MdMarkunreadMailbox } from "react-icons/md";
-import { BiSolidOffer } from "react-icons/bi";
-import { IoMdHelpBuoy } from "react-icons/io";
-import { FaCartShopping } from "react-icons/fa6";
-import { FaUserCircle } from "react-icons/fa";
-import { FaSearch } from "react-icons/fa";
-import { FaBars } from "react-icons/fa"; // Hamburger menu icon
 import { useState } from "react";
+import { BiSolidOffer } from "react-icons/bi";
+import { FaBars, FaHome, FaSearch, FaUserCircle } from "react-icons/fa";
+import { FaCartShopping } from "react-icons/fa6";
+import { IoMdHelpBuoy } from "react-icons/io";
+import { MdKeyboardArrowDown, MdMarkunreadMailbox } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 export const Header = () => {
@@ -42,7 +39,7 @@ export const Header = () => {
 
           <li>
             <Link to="/" className="flex gap-2 items-center text-lg hover:text-orange-600">
-              <FaCartShopping className="text-xl" />
+              <FaHome className="text-xl" />
               Home
             </Link>
               </li>

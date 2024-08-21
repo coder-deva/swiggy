@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <>
     
-      <div className="flex w-[100%] h-24 bg-gray-200 mx-auto">
+      <div className="flex w-[100%] h-24 bg-gray-200 mx-auto ">
         <div className="w-[75%] mx-auto flex">
           <p className="font-extrabold text-gray-700 p-3 text-2xl flex">
             For better experience,
